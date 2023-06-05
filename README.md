@@ -18,7 +18,7 @@ Enjoy it!
 ## Dependence
 
 - CentOS7
-- Python3.6.5
+- Python 3.10.11
 - torch==1.2.0
 - torchvision==0.4.0
 - Tesla P40 - Nvidia
@@ -31,7 +31,7 @@ Enjoy it!
 - Run demo
 
   ```sh
-  python demo.py -m path/to/model -i data/demo.jpg
+  python demo.py -m path/to/model -i data2/demo.jpg
   ```
 
    ![demo](https://raw.githubusercontent.com/Holmeyoung/crnn_pytorch/master/demo/demo.jpg)
@@ -109,7 +109,7 @@ Enjoy it!
 2. Run the `create_dataset.py` in `tool` folder by
 
    ```sh
-   python tool/create_dataset.py --out lmdb/data/output/path --folder path/to/folder
+   python tool/create_dataset.py --out lmdb/data2/output/path --folder path/to/folder
    ```
 
    
@@ -159,7 +159,7 @@ Enjoy it!
 2. Run the `create_dataset.py` in `tool` folder by
 
    ```sh
-   python tool/create_dataset.py --out lmdb/data/output/path --file path/to/file
+   python tool/create_dataset.py --out lmdb/data2/output/path --file path/to/file
    ```
 
    

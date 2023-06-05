@@ -9,3 +9,13 @@
 *.mdb
 *__pycache__/
 *.vscode/
+*.zip
+features.h5
+features.json
+*/.ipynb_checkpoints
+*.iml
+misc.xml
+modules.xml
+profiles_settings.xml
+Project_Default.xml
+vcs.xml

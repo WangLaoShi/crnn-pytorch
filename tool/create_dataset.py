@@ -43,7 +43,7 @@ def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkV
         lexiconList   : (optional) list of lexicon lists
         checkValid    : if true, check the validity of every image
     """
-    # If lmdb file already exists, remove it. Or the new data will add to it.
+    # If lmdb file already exists, remove it. Or the new data2 will add to it.
     if os.path.exists(outputPath):
         shutil.rmtree(outputPath)
         os.makedirs(outputPath)
@@ -114,14 +114,14 @@ def read_data_from_file(file_path):
     return image_path_list, label_list
 
 def show_demo(demo_number, image_path_list, label_list):
-    print ('\nShow some demo to prevent creating wrong lmdb data')
+    print ('\nShow some demo to prevent creating wrong lmdb data2')
     print ('The first line is the path to image and the second line is the image label')
     for i in range(demo_number):
         print ('image: %s\nlabel: %s\n' % (image_path_list[i], label_list[i]))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', type = str, required = True, help = 'lmdb data output path')
+    parser.add_argument('--out', type = str, required = True, help = 'lmdb data2 output path')
     parser.add_argument('--folder', type = str, help = 'path to folder which contains the images')
     parser.add_argument('--file', type = str, help = 'path to file which contains the image path and label')
     args = parser.parse_args()

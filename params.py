@@ -1,6 +1,6 @@
 import alphabets
 
-# about data and net
+# about data2 and net
 alphabet = alphabets.alphabet
 keep_ratio = False # whether to keep ratio for image resize
 manualSeed = 1234 # reproduce experiemnt
@@ -17,7 +17,7 @@ dealwith_lossnan = False # whether to replace all nan/inf in gradients to zero
 cuda = True # enables cuda
 multi_gpu = False # whether to use multi gpu
 ngpu = 1 # number of GPUs to use. Do remember to set multi_gpu to True!
-workers = 0 # number of data loading workers
+workers = 0 # number of data2 loading workers
 
 # training process
 displayInterval = 100 # interval to be print the train loss
